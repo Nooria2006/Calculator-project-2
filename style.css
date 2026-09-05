@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
+    background-image: url('Image.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,6 +56,10 @@ nav .active {
     color: #d87928;
     font-size: 38px;
     margin: 10px 0;
+}
+nav a:hover,nav a:active {
+    color:#d87928;
+    font-weight:bold;
 }
 
 #calculator {
